@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+    modId="armorequipdelay"
+    version="1.0.0"
+    displayName="Armor Equip Delay"
+    description='''
+Додає дебафи Повільності та Слабкості при одяганні/знятті броні.
+Сумісний з Peak Stamina та іншими системами стаміни.
+Всі параметри налаштовуються у конфіг-файлі armorequipdelay-server.toml
+'''
+    authors="Custom"
+    displayURL=""
+
+[[dependencies.armorequipdelay]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.armorequipdelay]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
