@@ -1,0 +1,11 @@
+{
+  "armorequipdelay.equipping.helmet":     "⚔ Одевается шлем...",
+  "armorequipdelay.equipping.chestplate": "⚔ Одевается кираса...",
+  "armorequipdelay.equipping.leggings":   "⚔ Одеваются штаны...",
+  "armorequipdelay.equipping.boots":      "⚔ Одеваются сапоги...",
+
+  "armorequipdelay.unequipping.helmet":     "⚔ Снимается шлем...",
+  "armorequipdelay.unequipping.chestplate": "⚔ Снимается кираса...",
+  "armorequipdelay.unequipping.leggings":   "⚔ Снимаются штаны...",
+  "armorequipdelay.unequipping.boots":      "⚔ Снимаются сапоги..."
+}

@@ -18,10 +18,7 @@ public class ArmorEquipDelay {
     public ArmorEquipDelay() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Реєструємо конфіг
         ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, ArmorDelayConfig.SERVER_SPEC, "armorequipdelay-server.toml");
-
-        // Реєструємо обробник подій
         MinecraftForge.EVENT_BUS.register(new ArmorEquipEventHandler());
 
         LOGGER.info("ArmorEquipDelay mod loaded!");
