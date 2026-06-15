@@ -1,0 +1,11 @@
+{
+  "armorequipdelay.equipping.helmet":     "⚔ Equipping helmet...",
+  "armorequipdelay.equipping.chestplate": "⚔ Equipping chestplate...",
+  "armorequipdelay.equipping.leggings":   "⚔ Equipping leggings...",
+  "armorequipdelay.equipping.boots":      "⚔ Equipping boots...",
+
+  "armorequipdelay.unequipping.helmet":     "⚔ Unequipping helmet...",
+  "armorequipdelay.unequipping.chestplate": "⚔ Unequipping chestplate...",
+  "armorequipdelay.unequipping.leggings":   "⚔ Unequipping leggings...",
+  "armorequipdelay.unequipping.boots":      "⚔ Unequipping boots..."
+}

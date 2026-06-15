@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-3.0"
+
+[[mods]]
+    modId="armorequipdelay"
+    version="1.0.1"
+    displayName="Armor Equip Delay"
+    description='''
+Adds Slowness and Weakness debuffs when equipping or unequipping any armor piece.
+Prevents stamina system abuse in modpacks. Compatible with Peak Stamina, Feathers, and similar mods.
+All parameters are configurable in armorequipdelay-server.toml
+'''
+    authors="ssdmann"
+    displayURL="https://modrinth.com/mod/armor-equip-delay"
+
+[[dependencies.armorequipdelay]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.armorequipdelay]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
